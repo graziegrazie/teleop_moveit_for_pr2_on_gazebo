@@ -11,7 +11,7 @@ After attaching to a created container, please perform following commands in ter
 ```
 roslaunch pr2_gazebo pr2_empty_world.launch
 roslaunch pr2_moveit_config move_group.launch
-roslaunch pr2_moveit_config moveit_rviz.launch
+roslaunch pr2_moveit_config moveit_rviz.launch config:=true
 rosrun robot_state_publisher robot_state_publisher
 roslaunch jsk_teleop_joy pr2_moveit.launch
 ```
